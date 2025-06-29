@@ -89,7 +89,7 @@ frontend/
 
 1. **Clone o repositório**
     ```bash
-    git clone <url-do-repositorio>
+    git clone https://github.com/LucasAraujo1016/T5.git
     cd <pasta-do-projeto>
     ```
 
@@ -290,12 +290,6 @@ ORDER BY valor_total DESC
 LIMIT 5;
 $$ LANGUAGE SQL;
 ```
-
----
-
-## Como Popular o Banco para Testes
-
-Veja [este exemplo de script de popular banco](#) para inserir rapidamente 20 produtos, 20 serviços, 30 clientes e associações aleatórias.
 
 ---
 
