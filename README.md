@@ -17,6 +17,46 @@ O sistema permite o cadastro, atualização, exclusão e listagem de clientes, p
 
 ---
 
+## Versões Recomendadas e Comandos de Execução
+
+### Versões de Softwares e Bibliotecas Fundamentais
+
+- **Node.js:** 18.19.0  
+- **npm:** 9.8.1  
+- **React:** 18.2.0  
+- **TypeScript:** 4.9.5  
+- **TailwindCSS:** 3.3.3  
+- **Supabase JS:** 2.39.7  
+- **@heroicons/react:** 2.1.1  
+- **VSCode:** 1.89.1
+
+As versões exatas das dependências podem ser conferidas no arquivo `package.json`.
+
+---
+
+### Ordem e Comandos para Execução do Projeto
+
+1. **Clone o repositório**
+    ```bash
+    git clone https://github.com/LucasAraujo1016/T5.git
+    cd T5
+    ```
+
+2. **Instale as dependências**
+    ```bash
+    npm install
+    ```
+
+3. **Configure o Supabase**
+    - Edite o arquivo `src/api/supabaseClient.ts` com as chaves do Supabase fornecidas pelo administrador ou professor.
+
+4. **Inicie o projeto**
+    ```bash
+    npm start
+    ```
+
+---
+
 ## Funcionalidades
 
 ### Clientes
@@ -82,33 +122,6 @@ frontend/
 ├── package.json
 └── README.md
 ```
-
----
-
-## Como Executar
-
-1. **Clone o repositório**
-    ```bash
-    git clone https://github.com/LucasAraujo1016/T5.git
-    cd <pasta-do-projeto>
-    ```
-
-2. **Instale as dependências**
-    ```bash
-    npm install
-    ```
-
-3. **Banco de Dados**
-    - **Atenção:** Um banco de dados já foi criado e está sendo utilizado para esta atividade. Todas as tabelas, funções e dados necessários já estão configurados e populados no Supabase.
-    - Caso deseje utilizar outro banco, siga o modelo relacional abaixo e crie as funções SQL conforme a seção específica deste README.
-
-4. **Configure o Supabase**
-    - Configure as variáveis de ambiente em `src/api/supabaseClient.ts` para apontar para o banco já existente.
-
-5. **Inicie o projeto**
-    ```bash
-    npm start
-    ```
 
 ---
 
